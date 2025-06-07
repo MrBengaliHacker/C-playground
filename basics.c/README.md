@@ -17,7 +17,30 @@ int main() {
 hello world
 ```
 
-## 📋Exercise 2: Sum Numbers
+## 📋Exercise 2: Escape Sequences
+
+**Question**: Write a C program to print text on multiple lines using the newline escape sequence (\n).
+
+**Solution**: [View Code](escape_sequences.c)
+
+```c
+# include <stdio.h>
+int main() {
+    printf("Hi\n");
+    printf("I am learning C programming.\n");
+    printf("It's fun!\n");
+    return 0;
+}
+```
+### OUTPUT
+
+```
+Hi
+I am learning C programming.
+It's fun!
+```
+
+## 📋Exercise : Sum Numbers
 
 **Question**: Write a C program print the sum of two numbers.
 
