@@ -66,6 +66,35 @@ Learning C is fun!
 Comments make code easy to understand.
 ```
 
+## 📋Exercise 4: Variables
+
+**Question**: Write a C program to declare and print different types of variables: integer, float, and character.
+
+**Solution**: [View Code](variables.c)
+
+```c
+#include <stdio.h>
+
+int main() {
+    int age = 20;          // Integer variable
+    float height = 5.9;    // Floating point variable
+    char grade = 'A';      // Character variable
+  
+    printf("Age: %d\n", age);
+    printf("Height: %.1f\n", height);
+    printf("Grade: %c\n", grade);
+
+    return 0;
+}
+```
+### OUTPUT
+
+```
+Age: 20
+Height: 5.9
+Grade: A
+```
+
 ## 📋Exercise : Sum Numbers
 
 **Question**: Write a C program print the sum of two numbers.
