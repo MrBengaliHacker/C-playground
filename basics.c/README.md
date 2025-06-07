@@ -95,27 +95,31 @@ Height: 5.9
 Grade: A
 ```
 
-## 📋Exercise : Sum Numbers
+## 📋Exercise 5: Arithmetic Operations
 
-**Question**: Write a C program print the sum of two numbers.
+**Question**: Write a C program to perform addition, subtraction, multiplication, and division of two integers.
 
-**Solution**: [View Code](sum_numbers.c)
+**Solution**: [View Code](arithmetic_operations.c)
 
 ```c
 #include <stdio.h>
-#include <conio.h>
-int main()
-{
-    int a, b;
-    printf("Enter The Value Of A B : ");
-    scanf("%d%d", &a, &b);
-    printf("Sum Of The Given Numbers = %d", a + b);
+
+int main() {
+    int a = 12, b = 3;
+    
+    printf("%d\n", a + b);  // Addition
+    printf("%d\n", a - b);  // Subtraction
+    printf("%d\n", a * b);  // Multiplication
+    printf("%d\n", a / b);  // Integer Division
+
     return 0;
 }
 ```
 ### OUTPUT
 
 ```
-Enter The Value Of A B : 2 9
-Sum Of The Given Numbers = 11
+13
+7 
+30
+3
 ```
