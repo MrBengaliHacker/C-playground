@@ -40,6 +40,32 @@ I am learning C programming.
 It's fun!
 ```
 
+## 📋Exercise 3: Comments and Formatting
+
+**Question**: Write a C program that demonstrates the use of single-line and multi-line comments.
+**Solution**: [View Code](comments_formatting.c)
+
+```c
+#include <stdio.h>
+int main() {
+     // This is a single-line comment
+     printf("Learning C is fun!\n");
+
+     /*
+      This is a multi-line comment.
+      You can write explanations here.
+     */
+      printf("Comments make code easy to understand.\n");
+      return 0;
+}
+```
+### OUTPUT
+
+```
+Learning C is fun!
+Comments make code easy to understand.
+```
+
 ## 📋Exercise : Sum Numbers
 
 **Question**: Write a C program print the sum of two numbers.
