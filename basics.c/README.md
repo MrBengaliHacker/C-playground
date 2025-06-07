@@ -1,4 +1,4 @@
-## Exercise 1: Hello World
+## 📋Exercise 1: Hello World
 
 **Question**: Write a C program to print "Hello World".
 
@@ -17,7 +17,7 @@ int main() {
 hello world
 ```
 
-## Exercise 2: Sum Numbers
+## 📋Exercise 2: Sum Numbers
 
 **Question**: Write a C program print the sum of two numbers.
 
