@@ -106,3 +106,53 @@ int main()
 Enter the Year:2024
 2024 is leap year.
 ```
+
+## 💻 Program: Area vs Perimeter of Rectangle
+
+**📔 Problem**: WWrite a program to check whether the area of a rectangle is greater than its perimeter, given its length and breadth.
+
+**💡 Solution**: [View Code](area_perimeter.c)
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int length, breadth, area, perimeter;
+
+    printf("Enter length of the rectangle: ");
+    scanf("%d", &length);
+
+    printf("Enter breadth of the rectangle: ");
+    scanf("%d", &breadth);
+
+    // Calculate area and perimeter
+    area = length * breadth;
+    perimeter = 2 * (length + breadth);
+
+    // Compare area and perimeter
+    if (area > perimeter)
+    {
+        printf("Area (%d) is greater than Perimeter (%d).\n", area, perimeter);
+    }
+    else if (area < perimeter)
+    {
+        printf("Area (%d) is less than Perimeter (%d).\n", area, perimeter);
+    }
+    else
+    {
+        printf("Area (%d) is equal to Perimeter (%d).\n", area, perimeter);
+    }
+
+    return 0;
+}
+
+
+```
+### OUTPUT
+
+```
+Enter length of the rectangle: 10
+Enter breadth of the rectangle: 5
+Area (50) is greater than Perimeter (30).
+```
