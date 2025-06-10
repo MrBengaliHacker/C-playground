@@ -5,20 +5,21 @@
 **💡 Solution**: [View Code](even_or_odd.c)
 
 ```c
-#include <stdio.h>
-
-int main() {
+int main()
+{
     int x;
-    
+
     printf("Enter a positive integer:");
-    scanf("%d",&x);
-    if(x%2==0){
+    scanf("%d", &x);
+    if (x % 2 == 0)
+    {
         printf("%d is Even.\n", x);
     }
-    else{
-       printf("%d is Odd.\n", x); 
+    else
+    {
+        printf("%d is Odd.\n", x);
     }
- 
+
     return 0;
 }
 
@@ -39,20 +40,21 @@ Enter a positive integer:5
 ```c
 #include <stdio.h>
 
-#include <stdio.h>
-
-int main() {
+int main()
+{
     int x;
-    
+
     printf("Enter a positive integer:");
-    scanf("%d",&x);
-    if(x%5==0){
+    scanf("%d", &x);
+    if (x % 5 == 0)
+    {
         printf("%d is divisible by 5.\n", x);
     }
-    else{
-       printf("%d is not divisible by 5.\n", x); 
+    else
+    {
+        printf("%d is not divisible by 5.\n", x);
     }
- 
+
     return 0;
 }
 
