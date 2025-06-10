@@ -109,7 +109,7 @@ Enter the Year:2024
 
 ## 💻 Program: Area vs Perimeter of Rectangle
 
-**📔 Problem**: WWrite a program to check whether the area of a rectangle is greater than its perimeter, given its length and breadth.
+**📔 Problem**: Write a program to check whether the area of a rectangle is greater than its perimeter, given its length and breadth.
 
 **💡 Solution**: [View Code](area_perimeter.c)
 
