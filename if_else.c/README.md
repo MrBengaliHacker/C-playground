@@ -63,3 +63,44 @@ int main() {
 Enter a positive integer:15
 15 is divisible by 5.
 ```
+
+## 💻 Program: Leap Year Checker
+
+**📔 Problem**: Write a program to check whether a given year is a leap year or not.
+
+**💡 Solution**: [View Code](leap_year.c)
+
+```c
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("Enter the Year:");
+    scanf("%d", &n);
+
+    if (n % 400 == 0)
+    {
+        printf("%d is a leap year.\n", n);
+    }
+    else if (n % 100 == 0)
+    {
+        printf("%d is not a leap year.\n", n);
+    }
+    else if (n % 4 == 0)
+    {
+        printf("%d is leap year.\n", n);
+    }
+    else
+    {
+        printf("%d is not a leap year.\n", n);
+    }
+    return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter the Year:2024
+2024 is leap year.
+```
