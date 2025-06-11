@@ -168,7 +168,7 @@ Area (50) is greater than Perimeter (30).
 int main()
 {
   int x;
-  printf("Enter the number:");
+  printf("Enter a positive integer:");
   scanf("%d", &x);
   if (x > 99 && x < 1000)
   {
