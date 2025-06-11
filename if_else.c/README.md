@@ -168,7 +168,7 @@ Area (50) is greater than Perimeter (30).
 int main()
 {
   int x;
-  printf("Enter a positive integer:");
+  printf("Enter the number:");
   scanf("%d", &x);
   if (x > 99 && x < 1000)
   {
@@ -190,6 +190,6 @@ Enter a positive integer:16
 16 is not a three digit number.
 ```
 ```
-EEnter a positive integer:108
+Enter a positive integer:108
 108 is a three digit number.
 ```

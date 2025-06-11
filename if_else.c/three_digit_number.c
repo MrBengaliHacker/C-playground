@@ -3,7 +3,7 @@
 int main()
 {
   int x;
-  printf("Enter a positive integer:");
+  printf("Enter the number:");
   scanf("%d", &x);
   if (x > 99 && x < 1000)
   {
