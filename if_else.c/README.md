@@ -147,7 +147,6 @@ int main()
     return 0;
 }
 
-
 ```
 ### OUTPUT
 
@@ -155,4 +154,42 @@ int main()
 Enter length of the rectangle: 10
 Enter breadth of the rectangle: 5
 Area (50) is greater than Perimeter (30).
+```
+
+## 💻 Program: Check for Three-Digit Number
+
+**📔 Problem**: Write a C program to check whether the entered positive integer is a three-digit number or not.
+
+**💡 Solution**: [View Code](three_digit_number.c)
+
+```c
+#include <stdio.h>
+
+int main()
+{
+  int x;
+  printf("Enter a positive integer:");
+  scanf("%d", &x);
+  if (x > 99 && x < 1000)
+  {
+    printf("%d is a three digit number.\n", x);
+  }
+  else
+  {
+    printf("%d is not a three digit number.\n", x);
+  }
+
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter a positive integer:16
+16 is not a three digit number.
+```
+```
+EEnter a positive integer:108
+108 is a three digit number.
 ```
