@@ -241,3 +241,60 @@ The number -5 is negative.
 Enter the number: 0
 The number is zero.
 ```
+
+## 💻 Program: Find the Greatest of Three Numbers
+
+**📔 Problem**: Write a C program to take three integers as input and print the greatest among them.
+
+**💡 Solution**: [View Code](greatest_of_three.c)
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2, num3;
+
+    printf("Enter the First number: ");
+    scanf("%d", &num1);
+    printf("Enter the Second number: ");
+    scanf("%d", &num2);
+    printf("Enter the Third number: ");
+    scanf("%d", &num3);
+    
+    if (num1 > num2)
+    {
+        if (num1 > num3)
+        {
+            printf("%d is Greatest.\n", num1);
+        }
+        else
+        {
+            printf("%d is Greatest.\n", num3);
+        }
+    }
+    else
+    {
+        if (num2 > num3)
+        {
+            printf("%d is Greatest.\n", num2);
+        }
+        else
+        {
+            printf("%d is Greatest.\n", num3);
+        }
+    }
+
+    return 0;
+}
+
+
+```
+### OUTPUT
+
+```
+Enter the First number: 5
+Enter the Second number: 9
+Enter the Third number: 2
+9 is Greatest.
+```
