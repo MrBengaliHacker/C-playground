@@ -9,15 +9,15 @@ int main()
 
   if (num > 0)
   {
-    printf("The number %d is positive\n", num);
+    printf("The number %d is positive.\n", num);
   }
   else if (num < 0)
   {
-    printf("The number %d is negative\n", num);
+    printf("The number %d is negative.\n", num);
   }
   else
   {
-    printf("The number is zero\n");
+    printf("The number is zero.\n");
   }
   return 0;
 }

@@ -194,3 +194,50 @@ Enter a positive integer:16
 Enter a positive integer:108
 108 is a three digit number.
 ```
+
+## 💻 Program: Check if a Number is Positive, Negative, or Zero
+
+**📔 Problem**: Write a C program to check whether a given number is positive, negative, or zero.
+
+**💡 Solution**: [View Code](positive_negative_zero.c)
+
+```c
+#include <stdio.h>
+
+int main()
+{
+  int num;
+
+  printf("Enter the number: ");
+  scanf("%d", &num);
+
+  if (num > 0)
+  {
+    printf("The number %d is positive.\n", num);
+  }
+  else if (num < 0)
+  {
+    printf("The number %d is negative.\n", num);
+  }
+  else
+  {
+    printf("The number is zero.\n");
+  }
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter the number: 16
+The number 16 is positive.
+```
+```
+Enter the number: -5
+The number -5 is negative.
+```
+```
+Enter the number: 0
+The number is zero.
+```
