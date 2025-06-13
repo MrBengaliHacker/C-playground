@@ -354,8 +354,6 @@ int main()
 ### OUTPUT
 
 ```
-Enter the First number: 5
-Enter the Second number: 9
-Enter the Third number: 2
-9 is Greatest.
+Enter Your number:88
+You got Grade B (Very Good).
 ```
