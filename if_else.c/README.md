@@ -298,3 +298,70 @@ Enter the Second number: 9
 Enter the Third number: 2
 9 is Greatest.
 ```
+
+## 💻 Program: Grade Evaluation Based on Marks
+
+**📔 Problem**: Write a C program to input a student's marks (0–100) and print their grade based on the following criteria:
+
+| Marks Range | Grade               |
+|-------------|---------------------|
+| 91–100      | A (Excellent)       |
+| 76–90       | B (Very Good)       |
+| 61–75       | C (Good)            |
+| 31–60       | D (Needs Improvement) |
+| 0–30        | F (Fail)            |
+
+If the entered marks are invalid (less than 0 or greater than 100), the program should display an appropriate message.
+
+**💡 Solution**: [View Code](grade_calculation.c)
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2, num3;
+
+    printf("Enter the First number: ");
+    scanf("%d", &num1);
+    printf("Enter the Second number: ");
+    scanf("%d", &num2);
+    printf("Enter the Third number: ");
+    scanf("%d", &num3);
+    
+    if (num1 > num2)
+    {
+        if (num1 > num3)
+        {
+            printf("%d is Greatest.\n", num1);
+        }
+        else
+        {
+            printf("%d is Greatest.\n", num3);
+        }
+    }
+    else
+    {
+        if (num2 > num3)
+        {
+            printf("%d is Greatest.\n", num2);
+        }
+        else
+        {
+            printf("%d is Greatest.\n", num3);
+        }
+    }
+
+    return 0;
+}
+
+
+```
+### OUTPUT
+
+```
+Enter the First number: 5
+Enter the Second number: 9
+Enter the Third number: 2
+9 is Greatest.
+```
