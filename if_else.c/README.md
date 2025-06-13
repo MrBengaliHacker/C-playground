@@ -317,44 +317,38 @@ If the entered marks are invalid (less than 0 or greater than 100), the program 
 
 ```c
 #include <stdio.h>
-
 int main()
 {
-    int num1, num2, num3;
+  int num;
+  printf("Enter Your number:");
+  scanf("%d", &num);
 
-    printf("Enter the First number: ");
-    scanf("%d", &num1);
-    printf("Enter the Second number: ");
-    scanf("%d", &num2);
-    printf("Enter the Third number: ");
-    scanf("%d", &num3);
-    
-    if (num1 > num2)
-    {
-        if (num1 > num3)
-        {
-            printf("%d is Greatest.\n", num1);
-        }
-        else
-        {
-            printf("%d is Greatest.\n", num3);
-        }
-    }
-    else
-    {
-        if (num2 > num3)
-        {
-            printf("%d is Greatest.\n", num2);
-        }
-        else
-        {
-            printf("%d is Greatest.\n", num3);
-        }
-    }
-
-    return 0;
+  if (num < 0 || num > 100)
+  {
+    printf("Invalid marks entered.\n");
+  }
+  else if (num > 90)
+  {
+    printf("You got Grade A (Excellent).\n");
+  }
+  else if (num > 75)
+  {
+    printf("You got Grade B (Very Good).\n");
+  }
+  else if (num > 60)
+  {
+    printf("You got Grade C (Good).\n");
+  }
+  else if (num > 30)
+  {
+    printf("You got Grade D (Needs Improvement).\n");
+  }
+  else
+  {
+    printf("You got Grade F (Fail).\n");
+  }
+  return 0;
 }
-
 
 ```
 ### OUTPUT
