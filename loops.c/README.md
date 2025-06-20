@@ -35,3 +35,37 @@ Which number table you want: 5
 5 * 9 = 45
 5 * 10 = 50
 ```
+
+## 💻 Program: Sum of Odd Numbers
+
+**📔 Problem**: Write a program to calculate the sum of all **odd numbers** from 1 to a number entered by the user.
+
+**💡 Solution**: [View Code](sum_of_odd_numbers.c)
+
+```c
+#include <stdio.h>
+int main()
+{
+  int num, sum = 0;
+  printf("Enter the number: ");
+  scanf("%d", &num);
+
+  for (int i = 1; i <= num; i++)
+  {
+    if (i % 2 != 0)  // check if i is odd
+    {
+      sum = sum + i; // add only odd numbers
+    }
+  }
+
+  printf("The sum of odd numbers from 1 to %d is %d\n", num, sum);
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter the number: 10
+The sum of odd numbers from 1 to 10 is 25
+```
