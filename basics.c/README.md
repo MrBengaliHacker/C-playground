@@ -123,3 +123,37 @@ int main() {
 36
 4 
 ```
+## 📋Program: Swap Two Numbers Using Temporary Variable in C
+
+**Question**: Write a C program to swap the values of two integers using a temporary variable.
+**Solution**: [View Code](swap_using_temp.c)
+
+```c
+#include <stdio.h>
+int main () {
+  int a, b, temp; //'temp' is a temporary variable used for swapping
+
+  printf("Enter the First Number: ");
+  scanf("%d", &a);
+  printf("Enter the Second Number: ");
+  scanf("%d", &b);
+
+  temp = a;
+  a = b;
+  b = temp;
+  printf("\nAfter Swapping:\n");
+  printf("First Number: %d\nSecond Number: %d", a, b);
+
+  return 0;
+}
+```
+### OUTPUT
+
+```
+Enter the First Number: 2
+Enter the Second Number: 5
+
+After Swapping:
+First Number: 5
+Second Number: 2 
+```
