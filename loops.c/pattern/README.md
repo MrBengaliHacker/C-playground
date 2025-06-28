@@ -1,11 +1,12 @@
 ## 💻 Program: Right-Angled Triangle Star Pattern
 
 **📔 Problem**: Write a C program to print the following pattern:
+```
 *
 **
 ***
 ****
-
+```
 **💡 Solution**: [View Code](star_triangle.c)
 
 ```c
