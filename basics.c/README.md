@@ -157,3 +157,39 @@ After Swapping:
 First Number: 5
 Second Number: 2 
 ```
+## 📋Program: Swap Two Numbers Without Using Temporary Variable in C
+
+**Question**: Write a C program to swap the values of two integers without using a temporary variable.
+**Solution**: [View Code](swap_without_temp.c)
+
+```c
+#include <stdio.h>
+int main()
+{
+  int a, b;
+
+  printf("Enter the First Number: ");
+  scanf("%d", &a);
+  printf("Enter the Second Number: ");
+  scanf("%d", &b);
+
+  a = a + b;
+  b = a - b;
+  a = a - b;
+
+  printf("\nAfter Swapping: \n");
+  printf("First Number: %d\nSecond Number: %d", a, b);
+
+  return 0;
+}
+```
+### OUTPUT
+
+```
+Enter the First Number: 2
+Enter the Second Number: 8
+
+After Swapping:
+First Number: 8
+Second Number: 2
+```
