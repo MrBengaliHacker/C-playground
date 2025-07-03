@@ -123,6 +123,37 @@ int main() {
 36
 4 
 ```
+
+## ➕Program: Sum of Two Numbers
+**Question**: Write a C program to input two integers from the user and display their sum.
+**Solution**: [View Code](Sum_two_numbers.c)
+
+```c
+#include <stdio.h>
+int main()
+{
+  int num1, num2, sum;
+
+  printf("Enter the First Number: ");
+  scanf("%d",&num1);
+  printf("Enter the Second Number: ");
+  scanf("%d",&num2);
+
+  
+  sum = num1 + num2 ;   //  Calculate the sum
+
+  printf("The sum of %d and %d is %d.\n", num1, num2, sum);
+
+  return 0;
+}
+```
+### OUTPUT
+
+```
+Enter the First Number: 5
+Enter the Second Number: 7
+The sum of 5 and 7 is 12.
+```
 ## 📋Program: Swap Two Numbers Using Temporary Variable in C
 
 **Question**: Write a C program to swap the values of two integers using a temporary variable.
