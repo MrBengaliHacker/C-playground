@@ -43,6 +43,7 @@ It's fun!
 ## 📋Exercise 3: Comments and Formatting
 
 **Question**: Write a C program that demonstrates the use of single-line and multi-line comments.
+
 **Solution**: [View Code](comments_formatting.c)
 
 ```c
@@ -126,6 +127,7 @@ int main() {
 
 ## ➕Program: Sum of Two Numbers
 **Question**: Write a C program to input two integers from the user and display their sum.
+
 **Solution**: [View Code](Sum_two_numbers.c)
 
 ```c
@@ -157,6 +159,7 @@ The sum of 5 and 7 is 12.
 ## 📋Program: Swap Two Numbers Using Temporary Variable in C
 
 **Question**: Write a C program to swap the values of two integers using a temporary variable.
+
 **Solution**: [View Code](swap_using_temp.c)
 
 ```c
@@ -191,6 +194,7 @@ Second Number: 2
 ## 📋Program: Swap Two Numbers Without Using Temporary Variable in C
 
 **Question**: Write a C program to swap the values of two integers without using a temporary variable.
+
 **Solution**: [View Code](swap_without_temp.c)
 
 ```c
@@ -227,6 +231,7 @@ Second Number: 2
 ## 📐Program: Real Roots of a Quadratic Equation
 
 **Question**: Write a C program to calculate the **real roots** of a quadratic equation.
+
 **Solution**: [View Code](quadratic_equation.c)
 
 ```c
@@ -286,6 +291,7 @@ No real roots exist (discriminant is negative).
 ## 🧮Program: Total and Average of Two Subjects
 
 **Question**: Write a program to input the marks of two subjects and calculate their total and average.
+
 **Solution**: [View Code](Total_and_Average.c)
 
 ```c
