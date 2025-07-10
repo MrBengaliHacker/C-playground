@@ -283,3 +283,37 @@ Enter the value of b: 2
 Enter the value of c: 3
 No real roots exist (discriminant is negative).
 ```
+## 🧮Program: Total and Average of Two Subjects
+
+**Question**: Write a program to input the marks of two subjects and calculate their total and average.
+**Solution**: [View Code](Total_and_Average.c)
+
+```c
+#include <stdio.h>
+int main(){
+  int sub1, sub2, total;
+  float avg;
+
+  printf("Enter the marks of subject 1: ");
+  scanf("%d", &sub1);
+  printf("Enter the marks of subject 2: ");
+  scanf("%d", &sub2);
+
+  total = sub1 + sub2 ;
+  avg = total / 2.0 ;
+
+  printf("Total Marks: %d \n", total);
+  printf("Average Marks: %f\n", avg);
+
+    return 0;
+
+}
+```
+### OUTPUT
+
+```
+Enter the marks of subject 1: 70
+Enter the marks of subject 2: 80
+Total Marks: 150 
+Average Marks: 75.000000
+```
