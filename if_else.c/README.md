@@ -356,4 +356,59 @@ int main()
 ```
 Enter Your number:88
 You got Grade B (Very Good).
+```## 💻 Program: Grade Evaluation Based on Marks
+
+**📔 Problem**: Write a program to calculate the commission for the sales person on the basis of following :
+
+• Sales < 5000 Commission = 5% Of Sales
+• Sales > 5000 And Sales < 10000 Commission = 10% Of Sales
+• Sales > 10000 And Sales < 20000 Commission = 15% Of Sales
+• Sales > 20000 Commission = 20% Of Sales
+
+**💡 Solution**: [View Code](Sales_Commission.c)
+
+```c
+#include <stdio.h>
+int main()
+{
+
+  float sales, commission;
+
+  printf("Enter The Sales Amount : ");
+  scanf("%f", &sales);
+
+  if (sales <= 5000)
+  {
+    commission = sales * 0.05;
+    printf("The Commission is : %f", commission);
+  }
+  else if (sales > 5000 && sales <= 10000)
+  {
+    commission = sales * 0.10;
+    printf("The Commission is : %f", commission);
+  }
+  else if (sales > 10000 && sales <= 20000)
+  {
+    commission = sales * 0.15;
+    printf("The Commission is : %f", commission);
+  }
+  else if (sales > 20000)
+  {
+    commission = sales * 0.20;
+    printf("The Commission is : %f", commission);
+  }
+  else
+  {
+    printf("No commission defined for this sales amount.");
+  }
+
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter The Sales Amount : 8000
+The Commission is : 800.000000
 ```
