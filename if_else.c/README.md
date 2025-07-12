@@ -361,10 +361,10 @@ You got Grade B (Very Good).
 
 **📔 Problem**: Write a program to calculate the commission for the sales person on the basis of following :
 
-• Sales < 5000 Commission = 5% Of Sales
-• Sales > 5000 And Sales < 10000 Commission = 10% Of Sales
-• Sales > 10000 And Sales < 20000 Commission = 15% Of Sales
-• Sales > 20000 Commission = 20% Of Sales
+- Sales < 5000 Commission = 5% Of Sales
+- Sales > 5000 And Sales < 10000 Commission = 10% Of Sales
+- Sales > 10000 And Sales < 20000 Commission = 15% Of Sales
+- Sales > 20000 Commission = 20% Of Sales
 
 **💡 Solution**: [View Code](Sales_Commission.c)
 
