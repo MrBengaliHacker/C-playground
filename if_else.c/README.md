@@ -357,7 +357,7 @@ int main()
 Enter Your number:88
 You got Grade B (Very Good).
 ```
-## 💻 Program: Grade Evaluation Based on Marks
+## 💻 Program: Calculate Sales Commission
 
 **📔 Problem**: Write a program to calculate the commission for the sales person on the basis of following :
 
