@@ -36,7 +36,7 @@ The number 8 is Even
 
 **📔 Problem**: Write a C program to find the maximum of two integers using the **ternary operator**.
 
-**💡 Solution**: [View Code](maximum.c)
+**💡 Solution**: [View Code](maximum_of_two.c)
 
 ```c
 #include <stdio.h>
