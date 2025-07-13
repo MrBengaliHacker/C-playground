@@ -413,3 +413,44 @@ int main()
 Enter The Sales Amount : 8000
 The Commission is : 800.000000
 ```
+## 💻 Program: Maximum Of Three Given Numbers ( Logical Operators )
+
+**📔 Problem**: Write a program to find the maximum of three given numbers using logical operators.
+
+**💡 Solution**: [View Code](max_of_three_logical_operator.c)
+
+```c
+#include <stdio.h>
+
+//  This program uses logical operators (&&) with if-else to find the maximum of three numbers
+
+int main()
+{
+  int a, b, c;
+
+  printf("Enter the First number: ");
+  scanf("%d", &a);
+  printf("Enter the Second number: ");
+  scanf("%d", &b);
+  printf("Enter the Third number: ");
+  scanf("%d", &c);
+
+  if (a > b && a > c)
+    printf("The Maximum Number Is : %d", a);
+  else if (b > a && b > c)
+    printf("The Maximum Number Is : %d", b);
+  else
+    printf("The Maximum Number Is : %d", c);
+
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter the First number: 21
+Enter the Second number: 89
+Enter the Third number: 48
+The Maximum Number Is : 89
+```
