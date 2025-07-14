@@ -35,6 +35,39 @@ Which number table you want: 5
 5 * 9 = 45
 5 * 10 = 50
 ```
+## 💻 Program: Sum of n Numbers
+
+**📔 Problem**: Write a program to find the sum of given n numbers.
+
+**💡 Solution**: [View Code](sum_of_n_numbers.c)
+
+```c
+#include <stdio.h>
+int main()
+{
+
+  int n, sum = 0;
+
+  printf("Enter the number: ");
+  scanf("%d", &n);
+
+  // Loop from 0 to n and calculate the sum
+  for (int i = 0; i <= n; i++)
+  {
+    sum = sum + i;
+  }
+  printf("The sum is %d.", sum);
+
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter the number: 8
+The sum is 36.
+```
 
 ## 💻 Program: Sum of Odd Numbers
 
