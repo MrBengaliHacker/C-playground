@@ -1,4 +1,4 @@
-# 🚀 C Playground 2.0
+# 🚀 C Playground
 
 **C Playground 2.0** is a beginner-friendly collection of C programs that cover core programming concepts like conditionals, loops, operators, and basic logic building.
 
