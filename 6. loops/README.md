@@ -102,3 +102,41 @@ int main()
 Enter the number: 10
 The sum of odd numbers from 1 to 10 is 25
 ```
+
+## 💻 Program: Sum Of Even And Odd Numbers
+
+**📔 Problem**: Write a program to calculate the sum of all **even** & **odd** numbers from 1 to 100.
+
+**💡 Solution**: [View Code](sum_of_even_odd.c)
+
+```c
+#include <stdio.h>
+int main()
+{
+
+  int even_sum = 0, odd_sum = 0;
+
+  for (int i = 1; i <= 100; i++)
+  {
+    if (i % 2 == 0)
+    {
+      even_sum = even_sum + i;
+    }
+    else
+    {
+      odd_sum = odd_sum + i;
+    }
+  }
+  printf("The even sum is %d.\n", even_sum);
+  printf("The odd sum is %d.\n", odd_sum);
+
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+The even sum is 2550.
+The odd sum is 2500.
+```
