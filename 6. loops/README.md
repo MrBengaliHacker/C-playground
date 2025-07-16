@@ -140,3 +140,60 @@ int main()
 The even sum is 2550.
 The odd sum is 2500.
 ```
+
+## 💻 Program: Check Prime Number
+
+**📔 Problem**: Write a program to check whether a given number is a prime number or not.
+
+**💡 Solution**: [View Code](sum_of_even_odd.c)
+
+```c
+#include <stdio.h>
+
+int main()
+{
+  int n, isPrime = 1;
+
+  printf("Enter the number: ");
+  scanf("%d", &n);
+
+  // Prime numbers are greater than 1
+  if (n <= 1)
+  {
+    isPrime = 0;
+  }
+  else
+  {
+    for (int i = 2; i < n; i++)
+    {
+      if (n % i == 0)
+      {
+        isPrime = 0; // Found a divisor, not prime
+        break;
+      }
+    }
+  }
+
+  if (isPrime)
+  {
+    printf("%d is a Prime Number.\n", n);
+  }
+  else
+  {
+    printf("%d is not a Prime Number.\n", n);
+  }
+
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter the number: 7
+7 is a Prime Number.
+```
+```
+Enter the number: 10
+10 is not a Prime Number.
+```
