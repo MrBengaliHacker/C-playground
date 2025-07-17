@@ -145,7 +145,7 @@ The odd sum is 2500.
 
 **📔 Problem**: Write a program to check whether a given number is a prime number or not.
 
-**💡 Solution**: [View Code](sum_of_even_odd.c)
+**💡 Solution**: [View Code](prime_number.c)
 
 ```c
 #include <stdio.h>
@@ -196,4 +196,54 @@ Enter the number: 7
 ```
 Enter the number: 10
 10 is not a Prime Number.
+```
+
+## 💻 Program: Check Perfect Number
+
+**📔 Problem**: Write a program to find weather the given number is perfect number or not.
+
+**💡 Solution**: [View Code](perfect_number.c)
+
+```c
+#include <stdio.h>
+
+int main()
+{
+  int num, remainder, sum = 0;
+
+  printf("Enter the number: ");
+  scanf("%d", &num);
+
+  // finding all divisors and adding them
+  for (int i = 1; i < num; i++)
+  {
+    if (num % i == 0)
+    {
+      sum = sum + i;
+    }
+  }
+
+  // checking if the number is perfect
+  if (sum == num)
+  {
+    printf("%d is a Perfect Number.\n", num);
+  }
+  else
+  {
+    printf("%d is Not a Perfect Number.\n", num);
+  }
+
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter the number: 6
+6 is a Perfect Number.
+```
+```
+Enter the number: 20
+20 is Not a Perfect Number.
 ```
