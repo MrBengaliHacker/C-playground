@@ -71,4 +71,40 @@ int main()
 **
 *
 ```
+## 💻 Program: Centered Pyramid Star Pattern
+
+**📔 Problem**: Write a program to print the following pattern:
+```
+   *
+  ***
+ *****
+```
+**💡 Solution**: [View Code](pyramid_star_triangle.c)
+
+```c
+
+#include <stdio.h>
+int main()
+{
+
+  for (int i = 4; i >= 1; i--)
+  {
+    for (int j = 1; j <= i; j++)
+    {
+      printf("*");
+    }
+    printf("\n");
+  }
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+   *
+  ***
+ *****
+```
+
 
