@@ -247,3 +247,53 @@ Enter the number: 6
 Enter the number: 20
 20 is Not a Perfect Number.
 ```
+
+## 💻 Program: Check Perfect Number
+
+**📔 Problem**: Write a program to find weather the given number is armstrong number or not.
+
+**💡 Solution**: [View Code](armstrong_number.c)
+
+```c
+#include <stdio.h>
+
+int main()
+{
+  int num, remainder, sum = 0;
+
+  printf("Enter the number: ");
+  scanf("%d", &num);
+
+  // finding all divisors and adding them
+  for (int i = 1; i < num; i++)
+  {
+    if (num % i == 0)
+    {
+      sum = sum + i;
+    }
+  }
+
+  // checking if the number is perfect
+  if (sum == num)
+  {
+    printf("%d is a Perfect Number.\n", num);
+  }
+  else
+  {
+    printf("%d is Not a Perfect Number.\n", num);
+  }
+
+  return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter the number: 153
+The number 153 is a Armstrong number.
+```
+```
+Enter the number: 123
+The number 123 is  not a Armstrong number.
+```
