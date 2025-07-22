@@ -297,3 +297,48 @@ The number 153 is a Armstrong number.
 Enter the number: 123
 The number 123 is  not a Armstrong number.
 ```
+
+## 💻 Program: Find Greatest Common Divisor
+
+**📔 Problem**: Write a program to find the greatest common divisor of two given numbers.
+
+**💡 Solution**: [View Code](greatest_common_divisor.c)
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2, i, gcd;
+
+    printf("Enter The First Number: ");
+    scanf("%d", &num1);
+    printf("Enter The Second Number: ");
+    scanf("%d", &num2);
+
+    for (i = 1; i <= num1 && i <= num2; i++)
+    {
+        if (num1 % i == 0 && num2 % i == 0)
+        {
+            gcd = i;
+        }
+    }
+
+    printf("The Greatest Common Divisor Of %d And %d Is : %d", num1, num2, gcd);
+
+    return 0;
+}
+
+```
+### OUTPUT
+
+```
+Enter The First Number: 12
+Enter The Second Number: 18
+The Greatest Common Divisor of 12 and 18 is: 6
+```
+```
+Enter The First Number: 36
+Enter The Second Number: 60
+The Greatest Common Divisor of 36 and 60 is: 12
+```
