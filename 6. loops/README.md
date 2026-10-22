@@ -248,7 +248,7 @@ Enter the number: 20
 20 is Not a Perfect Number.
 ```
 
-## 💻 Program: Check Perfect Number
+## 💻 Program: Check Armstrong Number
 
 **📔 Problem**: Write a program to find weather the given number is armstrong number or not.
 
